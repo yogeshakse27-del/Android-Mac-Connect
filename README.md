@@ -77,3 +77,16 @@ chmod +x setup.sh pair.sh connect.sh
 ---
 
 Made with ❤️ by [Yogesh](https://github.com/yogeshakse27-del)
+
+---
+
+## 🔢 Understanding Port Numbers
+
+There are always **2 different port numbers** in Wireless Debugging:
+
+- Main screen: 192.168.1.x:39871 — CONNECTION port (always visible)
+- Pairing popup: 192.168.1.x:40185 — PAIRING port (only shown when pairing)
+
+Use PAIRING port in ./pair.sh and CONNECTION port in ./connect.sh
+
+> Keep Wireless Debugging ON to avoid re-pairing every time!
