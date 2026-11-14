@@ -45,8 +45,6 @@ chmod +x setup.sh pair.sh connect.sh
 1. Settings → About Phone → tap **Build Number** 7 times
 2. Settings → Additional Settings → Developer Options
 3. Enable **Wireless Debugging**
-4. Click on **'Pair device with pairing code'**
-5. Note the **PAIRING port** and **6-digit code**
 
 ### Step 4 — Run pair script and enter your phone IP
 ```bash
