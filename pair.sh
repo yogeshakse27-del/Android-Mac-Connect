@@ -39,12 +39,15 @@ else
     echo ""
     echo "📱 On your phone:"
     echo "   1. Go to Developer Options → Wireless Debugging"
-    echo "   2. Tap 'Pair device with pairing code'"
+    echo "   2. Click on 'Pair device with pairing code'"
     echo "   3. Note the PAIRING port and 6-digit code"
     echo ""
     echo "⚡ You have 30 seconds after tapping!"
     echo ""
     read -p "Enter phone IP (e.g. 192.168.1.x): " PHONE_IP
+    echo ""
+    echo "👉 Now click on 'Pair device with pairing code' on your phone!"
+    echo ""
     read -p "Enter PAIRING port: " PAIR_PORT
     read -p "Enter 6-digit code: " PAIR_CODE
     echo ""
