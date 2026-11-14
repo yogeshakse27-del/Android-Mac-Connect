@@ -1,8 +1,21 @@
 # 📱 Android Mac Connect
 
+**Android Mac Connect** is an open-source tool that lets you wirelessly mirror and control your Android phone screen directly on your Mac. Built on top of the powerful scrcpy engine, it simplifies the entire setup process into just three easy scripts — no technical knowledge required.
+
+Whether you're a developer testing apps, a content creator recording your screen, or just someone who wants to control their phone from their Mac, Android Mac Connect makes it effortless.
+
 Mirror your Android phone screen to your Mac wirelessly — no cable needed!
 
 Built with [scrcpy](https://github.com/Genymobile/scrcpy) and ADB Wireless Debugging.
+
+## ✨ Key Features
+
+- 📱 Wireless screen mirroring — no USB cable needed
+- ⚡ Fast and low latency using scrcpy
+- 🖱️ Control your phone from your Mac (click, scroll, type)
+- 🔧 Simple 3-step setup with automated scripts
+- 🆓 Completely free and open source
+- ✅ Tested on OnePlus Nord CE3 (Android 15) + MacBook Air M1
 
 ---
 
@@ -59,7 +72,7 @@ chmod +x setup.sh pair.sh connect.sh
 ## 🛠️ Tested On
 
 - MacBook Air (Apple Silicon)
-- OnePlus Nord CE3 (Android 14)
+- OnePlus Nord CE3 (Android 15)
 
 ---
 
