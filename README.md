@@ -48,12 +48,20 @@ chmod +x setup.sh pair.sh connect.sh
 4. Click on **'Pair device with pairing code'**
 5. Note the **PAIRING port** and **6-digit code**
 
-### Step 4 — Pair your device (first time only)
+### Step 4 — Run pair script and enter your phone IP
 ```bash
 ./pair.sh
 ```
+- Enter your **phone's IP address** (e.g. 192.168.1.x)
+- Find it in: Wireless Debugging main screen
 
-### Step 5 — Mirror your screen!
+### Step 5 — Click 'Pair device with pairing code' on your phone
+- After entering IP, the script will prompt you
+- **Click 'Pair device with pairing code'** on your phone
+- Enter the **PAIRING port** and **6-digit code** quickly
+- Then enter the **main CONNECTION port**
+
+### Step 6 — Mirror your screen!
 ```bash
 ./connect.sh
 ```
@@ -69,7 +77,7 @@ There are always **2 different port numbers** in Wireless Debugging:
 
 Use PAIRING port in ./pair.sh and CONNECTION port in ./connect.sh
 
-> Keep Wireless Debugging ON to avoid re-pairing every time!
+> ⚠️ Keep Wireless Debugging ON to avoid re-pairing every time!
 
 ---
 
