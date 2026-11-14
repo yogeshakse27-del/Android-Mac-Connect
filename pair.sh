@@ -11,7 +11,7 @@ echo "   3. Tap 'Pair device with pairing code'"
 echo "   4. Note the IP address, pairing port and 6-digit code"
 echo ""
 
-read -p "Enter your phone's IP address (e.g. 192.168.1.7): " PHONE_IP
+read -p "Enter your phone's IP address (e.g. 192.168.x.x): " PHONE_IP
 read -p "Enter the PAIRING port shown on 'Pair with device' screen: " PAIR_PORT
 
 echo ""
